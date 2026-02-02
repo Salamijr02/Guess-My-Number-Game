@@ -57,6 +57,6 @@ againBtn.addEventListener('click', () => {
 
   displayMessage('Start guessing...');
   scoreEl.textContent = score;
-  secretEl.textContent = '18';
+  secretEl.textContent = '?';
   guessInput.value = '';
 });
