@@ -1,0 +1,96 @@
+* {
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #0a2a66, #0f5fb3);
+}
+
+.card {
+  background: #e6f4e6;
+  width: 90%;
+  max-width: 380px;
+  padding: 2rem;
+  border-radius: 14px;
+  text-align: center;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+h1 {
+  margin: 0;
+  font-size: 1.4rem;
+  letter-spacing: 1px;
+}
+
+.subtitle {
+  font-size: 0.9rem;
+  color: #555;
+  margin-top: 0.4rem;
+}
+
+.secret {
+  font-size: 3rem;
+  color: #f2c4df;
+  margin: 1.2rem 0;
+}
+
+input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  margin-bottom: 0.7rem;
+  text-align: center;
+}
+
+.check-btn {
+  width: 100%;
+  padding: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  background: #9c7bb0;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.message {
+  margin: 0.8rem 0;
+  font-size: 0.95rem;
+  color: #2f6f3e;
+}
+
+.scores {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+  margin-top: 0.8rem;
+}
+
+.again {
+  margin-top: 1.5rem;
+  padding: 0.8rem;
+  width: 100%;
+  background: #1e7f3b;
+  border: none;
+  border-radius: 8px;
+  color: #fff;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+/* Responsive */
+@media (max-width: 400px) {
+  .scores {
+    flex-direction: column;
+    gap: 0.3rem;
+  }
+}
